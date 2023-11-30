@@ -1,0 +1,55 @@
+<!-- Quebra de linha e quebra de contexto/temática -->
+
+<p>Isso está<br>em uma<br />nova linha.</p>
+
+<!-- O hr é uma quebra de temática, ele imprime uma linha horizontal em toda a página -->
+<p>Tema Interessante 1</p>
+<hr />
+<p>Tema Interessante 2</p>
+<p>Tema Interessante 3</p>
+<hr />
+<p>Tema Interessante 4</p>
+
+<!--Marcações semánticas-->
+<!--Serve pra quando você quer dar um destaque pra um determinado texto, marca-lo como forte; Não necessariamente precisa ser negrito, pode ser o tamanho
+da fonte alterado. Quando em negrito, você está diretamente aplicando um estilo a esse texto dentro do próprio html. No strong, você está dando uma semántica
+pra determinado texto-->
+<p><strong>Cuidado!!!</strong> Alta Voltagem!<em>Somente pessoal autorizado.</em></p>
+<!--Visualmente falando, não muda nada inicialmente, é aplicado no padrão do browser-->
+<!--A renderização fica por conta CSS. -->
+
+<!--Citações-->
+<blockquote cite="https://ge.globo.com/futebol/times/vasco/"><p>Citações Longas...</p></blockquote>
+<!--Serve como um recuo de grandes citações. Ao meu ver, serve como uma ferramenta mais para desenvolvidores entender da onde saiu daquele texto específico,
+colocando ali a fonte do mesmo.-->
+<p>Fulano disse que <q>Iago Maia é o futuro da programação</q></p>
+<!--Na blockquote, ele reduz o tamanho da citação e da um destaque de espaçamente-->
+<!--Em <q>, cria aspas duplas, geralmente referenciando uma fala, uma citação menor-->
+
+<!--Outras Tags-->
+<!--Abreciação, como o nome mesmo diz, abrevia determniada palavra-->
+<p>
+    <abbr title="Professor">Prof</abbr> Fulano em seu livro
+    <!--A tag abaixo, serve pra citar o determinada coisa, no caso do exemplo, nome do livro. O browser vai renderizar como itálico-->
+    <cite>Livro bem legal</cite> definiu mais precisamente...
+</p>
+
+<!--Serve pra quando você quer introduzir dentro de um texto uma definição-->
+<p><dfn>Buraco Negro</dfn> é uma região do espaço que...</p>
+
+<!--Endereço-->
+<address>
+    <p>Rua Tuiuti, n<sup>o</sup> 20</p>
+</address>
+
+<!--Tag pra alteração de texto, onde ficar marcação do que foi excluído e mostra o atual, deixando a alteração feita bem explícita
+Logo, <del></del> exclui e <ins></ins> destaca a atual-->
+<p>
+    O Oscar vai para <del>La La Land</del> <ins>Moonlight</ins>
+</p>
+
+<p>Computador de <s>R$: 2.599,99</s> por R$: 2.399,99</p>
+
+<!--Por mais que elas têm por padrão, estética de renderização parecida, o que ela mais trazem, é a ideia da semantica e também a facilidade que traz na hora
+de estilizar cada tag no css. -->
+

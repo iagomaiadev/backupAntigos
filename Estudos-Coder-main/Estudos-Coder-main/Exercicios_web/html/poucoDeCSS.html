@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Um Pouco de CSS</title> 
+        <!-- aqui em style escreveremos os css -->
+        <link rel="stylesheet" href="poucoDeCSS.css"> <!-- Prestar muita atenção na hora de linkar as outras abas, pra não dá erro. -->
+        <style>
+            h1 {
+                font-size: 20px;
+            }
+
+            .fundoVermelho {
+                background-color: rgb(121, 175, 246);
+            }
+
+            .negrito {
+                font-weight: bold;
+            }
+            
+
+
+        </style>
+        <!--o estilo da id (#textoPrincipal) foi escrita na outra aba-->
+    </head>
+    <body>
+        <h1>CSS</h1><br>
+        <span id="textoPrincipal">Texto 1</span><br><br> <!--id - identificador único dentro de uma página inteira-->
+        <span class="fundoVermelho negrito">Texto 2</span><br><br><!-- class também é um tipo de identificador, mt associado ao uso do style e pode usar mais de uma... -->
+        <!-- ... mais de uma vez dentro da mesma pagina. Tbm pode ter um elemento com mais de uma class-->
+        <span class="fundoVermelho">Texto 3</span>
+    </body>
+</html>

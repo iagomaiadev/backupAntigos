@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texto 01</title>
+    <style>
+        .espaco {
+            padding: 0px 30px;
+        }
+    </style>
+</head>
+<body>
+    
+</body>
+</html>
+<!--Para desabilitar o cache do http-server, é necessário executar no terminal " http-server -c-1 " (Esse modo para definitivamente o salvamento do cache).
+    o segundo parametro significa o tempo, em segundos, que deseja deixar salvo os caches, mas como no caso não queremos deixar nenhum cachhe salvo, desabilita-los,
+    usaremos -1 -->
+
+<!-- Cabeçalhos -->
+<h1>Cabeçalho Principal</h1> <!-- É o que tem o maior grau de importância. Geralmente, colocamos ali o texto de maior relevância-->
+<h2>Cabeçalho Nível 2</h2>
+<h3>Cabeçalho Nível 3</h3>
+<h4>Cabeçalho Nível 4</h4>
+<h5>Cabeçalho Nível 5</h5>
+<h6>Cabeçalho Nível 6</h6>
+<!-- Os outros h's, 2, 3, 4, 5, 6, é num grau de relevância sequencial. -->
+<!--Vale ressaltar que os h's não tem haver necessáriamente com tamanho, o tamanha é a forma padrão do browser renderizar, como fica claro quando aplicado, 
+mas também tem haver com a importancia do que estar codado nessas tags. -->
+
+<!-- Paragráfos -->
+<p>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, magni dolorem sed corrupti, iure aut vitae sequi dicta quas rerum molestias, 
+    earum explicabo labore consequatur tempora quo incidunt. Tenetur, nam.
+</p>
+<!-- Por padrão, o html puro não interpreta as quebras de linha, pra isso é necessário utilizar tags especificas, como <br>, ou style-->
+
+<!-- Negrito e Itálico -->
+<p>
+    Texto em <b>Negrito</b> e <i>Itálico</i>.
+</p>
+
+<!--Sobrescrito  e Subscrito-->
+<!-- São tags pra elevação e, ou, oposto, aplicado na palavra que desejamos-->
+<p>
+    2<sup>2</sup> = 4;
+</p>
+<p>
+    H<sub>2</sub>O = Água;
+</p>
+
+<!--Espaços em branco e quebra de linha-->
+<p>
+    ESPAÇOS EM                       BRANCO
+
+
+    E QUEBRAS                                             DE 
+    LINHA
+</p> 
+<!-- Quando quer utilizar um espaço em branco entre as palavras, a forma mais adequada, é utilizar a tag <span></span> e criar uma classe dentro dela
+<span class="espaço" -->
+
+<P>
+    ESPAÇO <span class="espaco">ENTRE</span> LINHAS
+</P>
